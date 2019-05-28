@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>loc</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://fontawesome.com/v4.7.0/icon/map-marker">
+<link rel="stylesheet" type="text/css" href="https://fontawesome.com/v4.7.0/icon/user">
+<link rel="stylesheet" type="text/css" href="https://fontawesome.com/v4.7.0/icon/phone">
+<link rel="stylesheet" type="text/css" href="https://fontawesome.com/v4.7.0/icon/unlock-alt">
+<link rel="stylesheet" type="text/css" href="https://fontawesome.com/v4.7.0/icon/envelope">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>  
+    <script>
+    	$(document).ready(function(){
+    		$("#click").click(function(){
+    	  	$("#slide").slideDown(1000)
+    	  });
+    	});
+    </script>
+    <style type="text/css">
+       
+      
+    	/*#click{
+    		padding:5px;
+    		background-color:white;
+    		text-align: center;
+    		border:1px solid black;
+    	}*/
+    	#slide{
+    		padding:50px;
+    		background-color: white;
+    	display:none;
+    		border:1px solid black;
+
+    	}
+    </style>
+</head>
+<body>   
+
+     
+<div style="background-image:url('sign.jpg');color:black;height:550px;width:1350px;float: left;">
+
+
+	  	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30526.54477727434!2d82.2164381416794!3d16.983495602578326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3829ace3357645%3A0xf451e608a02c48c0!2sSubway!5e0!3m2!1sen!2sin!4v1558506306359!5m2!1sen!2sin" width="300" height="530" frameborder="0" style="border:0;float:left" allowfullscreen></iframe>
+
+  	<div class="container ">
+				
+		<div class="row">
+			<div class="col-md-4">
+  	<form>
+  	<div class="form-group">
+		<label class="control-label "style="color:black">LOCATION:</label>
+		<div class="input-group">
+			<span class="input-group-addon"><i class="fa fa-map-marker" ></i></span>
+		<input type="text"  class="form-control"placeholder="enter your current location" required="">
+ 
+		</div>
+		
+	</div>
+
+</form>
+</div>
+<div class="col-md-4" style="margin-top: 30px">
+	<div id="click"><button class="btn-btn-info">SIGN IN</button></div>
+	<div id="slide">
+		<form>
+					<div class="form-group">
+					<label class="control-label " style="color:black">Phone no:</label>
+		   <div class="input-group " >
+			<span class="input-group-addon"><i class="fa fa-phone" ></i></span>
+		    <input type="number"class="form-control" placeholder="enter phone number" required="" >
+		   </div>
+		</div>
+
+		<div class="form-group">
+		<label class="control-label " style="color:black">Name:</label>
+		   <div class="input-group " >
+			<span class="input-group-addon"><i class="fa fa-user" ></i></span>
+		    <input type="text"class="form-control" placeholder="enter name" required="" >
+		   </div>
+		</div>
+		<div class="form-group">
+		<label class="control-label " style="color:black">Email id:</label>
+		   <div class="input-group " >
+			<span class="input-group-addon"><i class="fa fa-envelope" ></i></span>
+		    <input type="text"class="form-control" placeholder="enter email id" required="" >
+		   </div>
+		</div>
+		<div class="form-group">
+		<label class="control-label " style="color:black">Password:</label>
+		   <div class="input-group " >
+		   	<span class="input-group-addon"><i class="fa fa-unlock-alt" ></i></span>
+		    <input type="password"class="form-control" placeholder="enter password" required="" >
+		   </div>
+		</div>
+		<center><H4><button><a href="food.html">CLICK</a></button></H4></center>
+  	</form>
+  	</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
